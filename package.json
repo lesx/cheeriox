@@ -1,6 +1,7 @@
 {
   "name": "cheeriox",
-  "version": "0.22.0",
+  "version": "0.23.0",
+  "cheerioVersion": "0.22.0",
   "description": "Tiny, fast, and elegant implementation of core jQuery designed specifically for the server",
   "author": "Matt Mueller <mattmuelle@gmail.com> (mat.io)",
   "license": "MIT",
