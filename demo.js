@@ -2,7 +2,7 @@ const cheeriox = require('./');
 
 const code = `
 	<template type="test">
-		<button name='test' onClick={
+		<button attr name='test' onClick={
 			() => {
 				alert(1);
 			}
@@ -13,6 +13,8 @@ const code = `
 const $ = cheeriox.load(code, {
 	decodeEntities: false,
 });
+
+console.log($._root.children[1].children[1]);
 
 console.log($('template').attr('type'));
 console.log($('template').html());
